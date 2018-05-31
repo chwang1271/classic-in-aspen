@@ -1,0 +1,156 @@
+#aspen-classic { max-width: 1058px; margin: 0 auto; }
+#aspen-classic h1 { margin:15px 15px 0; }
+#aspen-classic h3 { padding-left: 30px; position:relative; cursor:pointer; margin-top:15px; margin-bottom:0; }
+#aspen-classic h3:before { content: "+"; left: 6px; position: absolute; top: 0; }
+#aspen-classic h3.open:before { content: "-"; }
+.faq-response { display:none; padding:1px 30px; }
+.faq-response p { margin-top: 5px; margin-bottom:10px; }
+.faq-question { margin: 0 15px; }
+#aspen-classic h2 { margin-bottom:15px; }
+#aspen-classic hr { border-top: 1px solid #c4c2c3; margin:5px 0 20px; }
+
+.classic-aspen-page .classic_aspen_header .page-container .classic_aspen_first_row .classic_aspen_cta:after {
+    background: url(https://cdn-image.foodandwine.com/sites/default/files/arrow_0.jpg) no-repeat !important;
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.aspen-anchors { margin: 5px 0 25px; padding: 0 0 0 30px; font-size:16px; }
+.aspen-anchors a { color:#e71f3d; text-transform:uppercase; }
+.author__info-posted { margin-top:2px; text-align:right; }
+
+.aspen-classic-overview { padding: 10px 20px 1px; }
+.aspen-classic-overview p { margin: 0 0 20px; }
+.aspen-classic-overview a { color: #ff0000; }
+.apply-btn { text-align:center; margin:35px 0 20px; }
+.apply-btn a, .apply-btn span { background-color:#ff0000; color: #fff; display:inline-block; font-weight: 600; margin: 0 0 5px; padding: 15px 35px; text-transform: uppercase; font-size:20px; transition: background-color 0.2s ease; text-align:center; line-height:20px; }
+.apply-btn a:hover { background-color:#000; }
+.apply-btn span{ background-color:#e71f3d; }
+
+.apply-btn-top { text-align:center; margin:10px 0 0; }
+.apply-btn-top a { background-color:#f48221; color: #fff; display:block; font-weight: 600; margin: 0 auto; padding: 7px 35px 5px; text-transform: uppercase; font-size:20px; transition: background-color 0.2s ease; text-align:center; line-height:20px; }
+.apply-btn-top a:hover { background-color:#069dd6; }
+
+@media (max-width:700px){
+	.author__info-posted { text-align:left; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-carousel{
+width: 100% !important;
+}
+
+.feature{
+width: 100% !important;
+}
+.l-two-col__left{
+padding-right: 0px !important;
+}
+.draggable{
+padding: 0px 20% !important;
+}
+
+.page-container{
+max-width: 1260px !important;
+}
+#
+
+.l-two-col__left{
+width: 100% !important;
+}
+.spotlight-tout__img{
+padding-left: 16% !important;
+width: 14% !important;
+}
+.spotlight-tout__content{
+width: 68% !important;
+}
+
+.hero-feature.slick-active .hero-feature__content{
+opacity:0 !important;
+}
+
+#myExperience{
+width: 100% !important;
+}
+.home{
+line-height: 0px;
+font-size: 0px;
+}
+.hero-feature .hero-feature__img{
+width: 60vw;
+height: auto !important;
+}
+
+@media screen and (max-device-width: 700px){
+
+.spotlight-tout__img{
+padding-left: 0px !important;
+width: 100% !important;
+}
+
+ .spotlight-tout__quote{
+  width:100% !important;
+}
+
+
+.hero-feature {
+ height: auto !important;
+}
+
+.spotlight-tout__content {
+    width: 100% !important;
+}
+    .section-container{
+        margin-bottom: 2px;
+    }
+
+    .hero-feature .hero-feature__img {
+width: 100vw !important;
+    }
+    .draggable{
+ padding: 0px !important;
+}
+
+}
+.page-container{
+max-width: 100% !important;
+}
+
+.content-carousel-container{
+max-width: none !important;
+}
+
+.site-header .page-container, .classic_aspen_header
+.page-container
+ {
+max-width: 1260px !important;
+
+.l-two-col__left{
+width: 100% !important;
+}
+
+.l-two-col--landing .l-two-col__left{
+width: 100% !important;
+}
+
+.spotlight-tout {
+width: 88%;
+}
+}
+
+.l-two-col__left { margin: 0 auto; float: none; }
+.l-two-col__right { display: none; }

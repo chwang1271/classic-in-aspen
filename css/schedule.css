@@ -1,0 +1,382 @@
+/* classic-schedule */
+#aspen-classic .clear { clear: both; width: 100%; }
+#aspen-classic hr { border:none; border-top:2px solid #000; }
+.classic-aspen-page .classic_aspen_header .page-container .classic_aspen_first_row .classic_aspen_cta:after {
+    background: url(https://cdn-image.foodandwine.com/sites/default/files/arrow_0.jpg) no-repeat !important;
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+.schedule-header h1 { margin-bottom:0; }
+.talent-wrap { display: none; }
+.schedule-download a { background-color:#000; color: #fff; display:block; font-weight: 600; margin: 0 0 5px; padding: 7px 16px; text-transform: uppercase; font-size:16px; transition: background-color 0.2s ease; text-align:center; }
+.schedule-download a:hover { background-color:#e71f3d; }
+
+.schedule-download h3 { font-size: 16px; font-weight: 700; margin: 0; text-align: center; text-transform: uppercase; display:block; padding-right:5px; text-align:center; }
+
+.schedule-filters { display: table; width: 100%; }
+.schedule-filter { display: table-cell; text-align: center; vertical-align: top; }
+.schedule-filter a { color:#000; font-size:17px; }
+#schedule-day-filters .schedule-filter { border-right:1px solid #000;  }
+#schedule-day-filters .schedule-filter.last { border-right:none;  }
+#schedule-type-filters  .schedule-filter { display:block; text-align:left; }
+.schedule-headers { display:none; }
+#schedule-type-filters .schedule-filter a:before { background-color: #fff; border: 1px solid #000; border-radius: 9px; content: ""; display: inline-block; height: 9px; margin-right: 7px; width: 9px; }
+#schedule-type-filters.schedule-filters { padding-left: 15px; }
+
+#schedule-day-filters .schedule-filter a { display: block; padding: 4px; }
+#schedule-day-filters .schedule-filter a:hover { background-color:#f6f6f6; }
+#schedule-type-filters .schedule-filter a.selected:before { background-color: #000; }
+#schedule-day-filters .schedule-filter a.selected, #schedule-day-filters .schedule-filter a.selected:hover { background-color: #000; color: #fff; }
+
+.schedule-type, .schedule-time { font-size: 15px; }
+.schedule-item { margin-top:10px; padding-bottom:10px; margin-bottom:10px; border-bottom:2px solid #000; }
+.schedule-title { font-size: 18px; font-weight: 600; margin: 5px 0 0; }
+
+.schedule-description p { font-size: 15px; margin: 4px 0 12px; }
+.schedule-description p.moderator { margin-bottom: 0; }
+.schedule-speaker-description p { font-size:14px; margin:0 0 10px; }
+.schedule-speaker-description a.speaker-learn-more { font-size:14px; font-weight:700; color:#e71f3d; }
+.schedule-speaker { display: table; width: 100%; padding-top:20px; padding-bottom:20px; border-top:1px dashed #e1e1e1; }
+.schedule-speaker-image { display:table-cell; width:20%; max-width:150px; vertical-align:top; }
+.schedule-speaker-image img { width:100%; }
+.schedule-speaker-description { display:table-cell; vertical-align:top; padding-left:18px; }
+.schedule-time, .schedule-type { font-size: 16px; }
+.schedule-speaker-name { font-size: 15px; font-weight: 700;  margin: 0; }
+
+.schedule-speakers a { color: #e71f3d; }
+
+.schedule-speakers a:hover { color: #ff3e5b; }
+.type-label { font-weight:700; }
+
+
+@media (min-width:800px){
+	.schedule-download { text-align:center; padding-top:35px; }
+	.schedule-download a { display:inline-block;  }
+	.schedule-download h3 { display:inline-block;  }
+
+	.schedule-headers { display:table; width:100%; background-color:#f6f6f6; color:#000; text-transform:uppercase; margin-top:10px; font-size:15px; font-weight:700; padding-top:10px; padding-bottom:10px;  }
+	#schedule-type-filters .schedule-filter { display:table-cell; text-align:center; }
+	.schedule-header-item { display:table-cell; vertical-align:top; text-align:center; }
+	#schedule-type-filters.schedule-filters { padding-left: 0; }
+	.schedule-item { display:table; width:100%; }
+	.schedule-time, .schedule-detaile, .schedule-type { display:table-cell; }
+	.schedule-header-item.time, .schedule-time { text-align: center; width: 25%; }
+	.schedule-header-item.time, .schedule-time { text-align: center; width: 25%; }
+	.schedule-header-item.type, .schedule-type { text-align: center; width: 15%; }
+
+	.schedule-details { padding-left: 20px; padding-right:20px; }
+	.type-label { display:none; }
+
+	.schedule-tag { background-color: #333; border-radius: 4px; color: #fff; display: inline-block; font-size: 12px; font-weight: 700; padding: 5px 10px; min-width:100px; }
+}
+
+
+
+/* classic-talent */
+
+#aspen-classic h1 { margin-bottom: 0; padding-left: 7px; }
+
+
+.overlay-content { display:none; }
+.aspen-item a span { display:block; text-align:center; font-size:17px; line-height:24px; color:#000000; transition: color 0.2s ease; font-weight:500; }
+.aspen-item a:hover span { color:#e71f3d; }
+.overlay-col h3 { font-size:35px; line-height:45px; margin:0 0 5px; font-weight:500; }
+.overlay-col p { font-size:16px; line-height:26px; margin:0 0 25px; }
+
+
+
+.aspen-item { padding:15px 7px; text-align:center; }
+
+.aspen-item a img { max-width: 210px; width: 100%; }
+
+.overlay-col.col-1 { text-align:center; }
+.overlay-col.col-1 img { max-width: 350px; width: 100%; }
+
+@media (min-width:700px){
+	.aspen-row { display:table; width:100%; }
+	.aspen-item { display:table-cell; vertical-align:top; width:25%; }
+
+	.overlay-row { display:table; width:100%; }
+	.overlay-col { display:table-cell; vertical-align:top; }
+	.overlay-col.col-2 { padding-left:36px; }
+	.overlay-col.col-1 { width:40%; max-width:350px; }
+
+}
+
+
+/* Begin FancyBox */
+/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+.fancybox-wrap,
+.fancybox-skin,
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-image,
+.fancybox-wrap iframe,
+.fancybox-wrap object,
+.fancybox-nav,
+.fancybox-nav span,
+.fancybox-tmp
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	vertical-align: top;
+}
+
+.fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8099920;
+}
+
+.fancybox-skin {
+	position: relative;
+	background: #FFFFFF;
+	color: #444;
+	text-shadow: none;
+}
+
+.fancybox-opened {
+	z-index: 8099930;
+}
+
+.fancybox-opened .fancybox-skin {
+	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+.fancybox-inner {
+	overflow: hidden;
+}
+
+.fancybox-type-iframe .fancybox-inner {
+	-webkit-overflow-scrolling: touch;
+}
+
+.fancybox-error {
+	color: #444;
+	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 15px;
+	white-space: nowrap;
+}
+
+.fancybox-image, .fancybox-iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.fancybox-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#fancybox-loading{
+	background-image: url('https://cdn-image.foodandwine.com/microsites/2017-aspen-classic/images/schedule/fancybox_sprite.png');
+}
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -22px;
+	margin-left: -22px;
+	background-position: 0 -108px;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: 8099960;
+}
+
+#fancybox-loading div {
+	width: 44px;
+	height: 44px;
+	background: url('https://cdn-image.foodandwine.com/microsites/2017-aspen-classic/images/schedule/fancybox_loading.gif') center center no-repeat;
+}
+
+.fancybox-close {
+	background-image: url('https://cdn-image.foodandwine.com/microsites/2016-aspen-classic/talent/images/overlay-sprite.png?v=3');
+	background-position:0 0;
+	position: absolute;
+	top: -16px;
+	right: -16px;
+	width: 39px;
+	height: 39px;
+	cursor: pointer;
+	z-index: 8099940;
+}
+
+.fancybox-nav {
+	position: absolute;
+	top: 200px;
+	width: 52px;
+	height: 64px;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	z-index: 8099940;
+	box-shadow:-1px 1px 2px #555;
+}
+
+.fancybox-prev, .fancybox-next {
+	background-image: url(https://cdn-image.foodandwine.com/microsites/2016-aspen-classic/talent/images/overlay-sprite.png?v=3);
+}
+
+.fancybox-prev {
+	left: 0;
+	background-position: 0 -120px;
+}
+
+.fancybox-next {
+	right: 0;
+	background-position: 0 -46px;
+}
+
+.fancybox-nav span {
+	position: absolute;
+	top: 0;
+	width: 34px;
+	height: 41px;
+	cursor: pointer;
+	z-index: 8099940;
+	visibility: hidden;
+}
+
+
+.fancybox-nav:hover span {
+	visibility: visible;
+}
+
+.fancybox-tmp {
+	position: absolute;
+	top: -99999px;
+	left: -99999px;
+	visibility: hidden;
+	max-width: 99999px;
+	max-height: 99999px;
+	overflow: visible !important;
+}
+
+/* Overlay helper */
+
+.fancybox-lock {
+    overflow: hidden !important;
+    width: auto;
+}
+
+.fancybox-lock body {
+    overflow: hidden !important;
+}
+
+.fancybox-lock-test {
+    overflow-y: hidden !important;
+}
+
+.fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: none;
+	z-index: 8099910;
+	background: url('https://editor.foodandwine.com/microsites/2017-aspen-classic/images/schedule/fancybox_overlay.png');
+}
+
+.fancybox-overlay-fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.fancybox-lock .fancybox-overlay {
+	overflow: none;
+	overflow-y: auto;
+}
+
+/* Title helper */
+
+.fancybox-title {
+	visibility: hidden;
+	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: relative;
+	text-shadow: none;
+	z-index: 8099950;
+}
+
+.fancybox-opened .fancybox-title {
+	visibility: visible;
+}
+
+.fancybox-title-float-wrap {
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-bottom: -35px;
+	z-index: 8099950;
+	text-align: center;
+}
+
+.fancybox-title-float-wrap .child {
+	display: inline-block;
+	margin-right: -100%;
+	padding: 2px 20px;
+	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(0, 0, 0, 0.8);
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	text-shadow: 0 1px 2px #222;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 24px;
+	white-space: nowrap;
+}
+
+.fancybox-title-outside-wrap {
+	position: relative;
+	margin-top: 10px;
+	color: #fff;
+}
+
+.fancybox-title-inside-wrap {
+	padding-top: 10px;
+}
+
+.fancybox-title-over-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 10px;
+	background: #000;
+	background: rgba(0, 0, 0, .8);
+}
+
+.fancybox-wrap { width:1040px !important; max-width:92% !important; }
+.fancybox-inner { height:auto !important; width:auto !important; position:relative; padding:25px; }
+
+@media (max-width:400px){
+	.fancybox-nav { top:128px; }
+}
+@media (min-width:700px){
+	.fancybox-inner { padding:50px 90px; }
+	.fancybox-nav { top:48%; }
+}
+
+.l-two-col__left { margin: 0 auto; float: none; }
+.l-two-col__right { display: none; }
+
+/*
+.schedule-download { display: none; }
+#aspen-classic hr { display: none; }
+.schedule-headers { display: none; }
+#schedule-items { display: none; }
+.filter-hr { display: none; }
+.schedule-filters { display: none; }
+*/

@@ -1,0 +1,14 @@
+#aspen-classic h3 { padding-left: 30px; position:relative; cursor:pointer; margin-top:15px; margin-bottom:0; }
+#aspen-classic h3:before { content: "+"; left: 6px; position: absolute; top: 0; }
+#aspen-classic h3.open:before { content: "-"; }
+.faq-response { display:none; padding:1px 30px; }
+.faq-response p { margin-top: 5px; margin-bottom:10px; }
+#aspen-classic h2 { margin-bottom:15px; }
+#aspen-classic hr { border-top: 1px solid #c4c2c3; margin-top:25px; }
+.classic-aspen-page .classic_aspen_header .page-container .classic_aspen_first_row .classic_aspen_cta:after {
+    background: url(https://cdn-image.foodandwine.com/sites/default/files/arrow_0.jpg) no-repeat !important;
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}

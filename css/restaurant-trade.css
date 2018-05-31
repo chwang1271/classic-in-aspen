@@ -1,0 +1,110 @@
+#aspen-classic { max-width: 1058px; margin: 0 auto; }
+.content-carousel{
+width: 100% !important;
+}
+
+.classic-aspen-page .classic_aspen_header .page-container .classic_aspen_first_row .classic_aspen_cta:after {
+    background: url(https://cdn-image.foodandwine.com/sites/default/files/arrow_0.jpg) no-repeat !important;
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.feature{
+width: 100% !important;
+}
+.l-two-col__left{
+padding-right: 0px !important;
+}
+.draggable{
+padding: 0px 20% !important;
+}
+
+.page-container{
+max-width: 1260px !important;
+}
+#
+
+.l-two-col__left{
+width: 100% !important;
+}
+.spotlight-tout__img{
+padding-left: 16% !important;
+width: 14% !important;
+}
+.spotlight-tout__content{
+width: 68% !important;
+}
+
+.hero-feature.slick-active .hero-feature__content{
+opacity:0 !important;
+}
+
+#myExperience{
+width: 100% !important;
+}
+.home{
+line-height: 0px;
+font-size: 0px;
+}
+.hero-feature .hero-feature__img{
+width: 60vw;
+height: auto !important;
+}
+
+@media screen and (max-device-width: 700px){
+
+.spotlight-tout__img{
+padding-left: 0px !important;
+width: 100% !important;
+}
+
+ .spotlight-tout__quote{
+  width:100% !important;
+}
+
+
+.hero-feature {
+ height: auto !important;
+}
+
+.spotlight-tout__content {
+    width: 100% !important;
+}
+    .section-container{
+        margin-bottom: 2px;
+    }
+
+    .hero-feature .hero-feature__img {
+width: 100vw !important;
+    }
+    .draggable{
+ padding: 0px !important;
+}
+
+}
+.page-container{
+max-width: 100% !important;
+}
+
+.content-carousel-container{
+max-width: none !important;
+}
+
+.site-header .page-container, .classic_aspen_header
+.page-container
+ {
+max-width: 1260px !important;
+
+.l-two-col__left{
+width: 100% !important;
+}
+
+.l-two-col--landing .l-two-col__left{
+width: 100% !important;
+}
+
+.spotlight-tout {
+width: 88%;
+}

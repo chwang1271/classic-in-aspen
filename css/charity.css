@@ -1,0 +1,95 @@
+#aspen-classic { max-width: 1058px; margin: 0 auto; }
+    .page-container{
+max-width: 100% !important;
+}
+
+.content-carousel{
+width: 100% !important;
+}
+
+.feature{
+width: 100% !important;
+}
+.l-two-col__left{
+padding-right: 0px !important;
+}
+.draggable{
+padding: 0px 20% !important;
+}
+
+.l-two-col__left{
+width: 100% !important;
+}
+.spotlight-tout__img{
+padding-left: 16% !important;
+width: 14% !important;
+}
+.spotlight-tout__content{
+width: 68% !important;
+}
+
+.hero-feature.slick-active .hero-feature__content{
+opacity:0 !important;
+}
+
+
+
+.content-carousel-container{
+overflow-y: hidden;
+max-height: 38vw;
+}
+
+h1{
+margin: 0 auto;
+}
+.hero-feature__content__title{
+font-size: 1.5vw !important;
+}
+.hero-feature__content{
+
+}
+.photographer{
+line-height: 0px !important;
+font-size: 1.4vw !important;
+}
+
+.copy{
+margin: 0 auto;
+font-family:brandon-grotesque;
+font-size: 24px;
+}
+
+.content-carousel-container .pagination-btn{
+margin-top: 0px !important;
+top: 30% !important;
+}
+
+.hero-feature__link{
+max-height: 38.1vw !important;
+}
+.hero-feature__content{
+max-height: 15vw;
+}
+
+.head{
+margin: 0;
+font-family:brandon-grotesque;
+}
+
+.slick-slide img {
+width: 100%;
+}
+
+.site-header .page-container, .classic_aspen_header
+.page-container
+ {
+max-width: 1260px !important;
+}
+
+.classic-aspen-page .classic_aspen_header .page-container .classic_aspen_first_row .classic_aspen_cta:after {
+    background: url(https://cdn-image.foodandwine.com/sites/default/files/arrow_0.jpg) no-repeat !important;
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
