@@ -301,3 +301,6 @@
 
 .l-two-col__left { margin: 0 auto; float: none; }
 .l-two-col__right { display: none; }
+
+/* Hiding all content until next year updates */
+.talent-wrap { display: none; }

@@ -2,7 +2,7 @@
 #aspen-classic .clear { clear: both; width: 100%; }
 #aspen-classic hr { border:none; border-top:2px solid #000; }
 .classic-aspen-page .classic_aspen_header .page-container .classic_aspen_first_row .classic_aspen_cta:after {
-    background: url(https://cdn-image.foodandwine.com/sites/default/files/arrow_0.jpg) no-repeat !important;
+    background: url(http://cdn-image.foodandwine.com/sites/default/files/arrow_0.jpg) no-repeat !important;
     content: "";
     width: 10px;
     height: 10px;
@@ -179,7 +179,7 @@
 }
 
 #fancybox-loading{
-	background-image: url('https://cdn-image.foodandwine.com/microsites/2017-aspen-classic/images/schedule/fancybox_sprite.png');
+	background-image: url('http://www.cookinglight.com/static/promo/menu-planner/i/fancybox_sprite.png');
 }
 
 #fancybox-loading {
@@ -197,11 +197,11 @@
 #fancybox-loading div {
 	width: 44px;
 	height: 44px;
-	background: url('https://cdn-image.foodandwine.com/microsites/2017-aspen-classic/images/schedule/fancybox_loading.gif') center center no-repeat;
+	background: url('http://www.cookinglight.com/static/promo/menu-planner/i/fancybox_loading.gif') center center no-repeat;
 }
 
 .fancybox-close {
-	background-image: url('https://cdn-image.foodandwine.com/microsites/2016-aspen-classic/talent/images/overlay-sprite.png?v=3');
+	background-image: url('http://cdn-image.foodandwine.com/microsites/2016-aspen-classic/talent/images/overlay-sprite.png?v=3');
 	background-position:0 0;
 	position: absolute;
 	top: -16px;
@@ -225,7 +225,7 @@
 }
 
 .fancybox-prev, .fancybox-next {
-	background-image: url(https://cdn-image.foodandwine.com/microsites/2016-aspen-classic/talent/images/overlay-sprite.png?v=3);
+	background-image: url(http://cdn-image.foodandwine.com/microsites/2016-aspen-classic/talent/images/overlay-sprite.png?v=3);
 }
 
 .fancybox-prev {
@@ -285,7 +285,7 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8099910;
-	background: url('https://editor.foodandwine.com/microsites/2017-aspen-classic/images/schedule/fancybox_overlay.png');
+	background: url('http://www.cookinglight.com/static/promo/menu-planner/i/fancybox_overlay.png');
 }
 
 .fancybox-overlay-fixed {
@@ -372,11 +372,10 @@
 .l-two-col__left { margin: 0 auto; float: none; }
 .l-two-col__right { display: none; }
 
-/*
+/* Hiding all content until next year updates */
 .schedule-download { display: none; }
 #aspen-classic hr { display: none; }
 .schedule-headers { display: none; }
 #schedule-items { display: none; }
 .filter-hr { display: none; }
 .schedule-filters { display: none; }
-*/

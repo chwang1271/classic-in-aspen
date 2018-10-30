@@ -333,3 +333,7 @@
 
 .l-two-col__left { margin: 0 auto; float: none; }
 .l-two-col__right { display: none; }
+
+/* Hiding all content until next year updates */
+.classic-row { display: none; }
+.sponsors.special-thanks { display: none; }
